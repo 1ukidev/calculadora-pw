@@ -11,12 +11,13 @@
 
 <body>
     <div id="conteudo" class="centralizar">
-        <input type="text" id="primeiroValor" placeholder="Digite o valor" onkeydown="return /[0-9]/i.test(event.key)">
-        <span id="modo"> ? </span>
-        <input type="text" id="segundoValor" placeholder="Digite o segundo valor" onkeydown="return /[0-9]/i.test(event.key)"> = 
+        <h2>Calculadora</h2>
+        <input type="text" id="primeiroValor" placeholder="Digite o valor" onkeydown="return /[0-9]/i.test(event.key)"><br>
+        <span id="modo"> ? </span><br>
+        <input type="text" id="segundoValor" placeholder="Digite o segundo valor" onkeydown="return /[0-9]/i.test(event.key)"><br> =<br>
         <input type="text" id="resultado" placeholder="Resultado" onkeydown="return /[0-9]/i.test(event.key)" disabled><br><br>
 
-        <div id="botoes" class="centralizar-botoes">
+        <div id="botoes">
             <button id="1">1</button>
             <button id="2">2</button>
             <button id="3">3</button>

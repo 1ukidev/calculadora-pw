@@ -1,22 +1,12 @@
+* {
+    font-family: 'Segoe UI', Helvetica, sans-serif;
+}
+
 .centralizar {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 255px;
-    width: 745px;
-}
-
-.centralizar-botoes {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 25px;
-}
-
-* {
-    font-family: 'Segoe UI', Helvetica, sans-serif;
 }
 
 body {
@@ -28,15 +18,16 @@ body {
 button {
     background-color: #5d3f94;
     color: white;
-    border: 5px solid white;
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
     font-size: 20px;
     width: 50px;
     height: 50px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-top: 5px;
 }
 
 input {
     font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
