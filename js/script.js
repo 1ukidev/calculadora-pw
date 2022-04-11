@@ -1,49 +1,52 @@
+const primeiroNumero = document.getElementById("primeiroNumero");
+const segundoNumero = document.getElementById("segundoNumero");
+const resultado = document.getElementById("resultado");
 let modoAtual = "";
 
 const AC = document.getElementById("AC").onclick = () => {
-    primeiroValor.value = "";
-    segundoValor.value = "";
+    primeiroNumero.value = "";
+    segundoNumero.value = "";
     resultado.value = "";
 }
 
 const zero = document.getElementById("0").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "0";
+    primeiroNumero.value = primeiroNumero.value + "0";
 }
 
 const um = document.getElementById("1").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "1";
+    primeiroNumero.value = primeiroNumero.value + "1";
 }
 
 const dois = document.getElementById("2").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "2";
+    primeiroNumero.value = primeiroNumero.value + "2";
 }
 
 const tres = document.getElementById("3").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "3";
+    primeiroNumero.value = primeiroNumero.value + "3";
 }
 
 const quatro = document.getElementById("4").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "4";
+    primeiroNumero.value = primeiroNumero.value + "4";
 }
 
 const cinco = document.getElementById("5").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "5";
+    primeiroNumero.value = primeiroNumero.value + "5";
 }
 
 const seis = document.getElementById("6").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "6";
+    primeiroNumero.value = primeiroNumero.value + "6";
 }
 
 const sete = document.getElementById("7").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "7";
+    primeiroNumero.value = primeiroNumero.value + "7";
 }
 
 const oito = document.getElementById("8").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "8";
+    primeiroNumero.value = primeiroNumero.value + "8";
 }
 
 const nove = document.getElementById("9").onclick = () => {
-    primeiroValor.value = primeiroValor.value + "9";
+    primeiroNumero.value = primeiroNumero.value + "9";
 }
 
 const soma = document.getElementById("soma").onclick = () => {
@@ -69,16 +72,16 @@ const multiplicao = document.getElementById("multiplicao").onclick = () => {
 const igualdade = document.getElementById("igualdade").onclick = () => {
     switch(modoAtual) {
         case "+":
-            resultado.value = Number(primeiroValor.value) + Number(segundoValor.value);
+            resultado.value = Number(primeiroNumero.value) + Number(segundoNumero.value);
             break;
         case "-":
-            resultado.value = Number(primeiroValor.value) - Number(segundoValor.value);
+            resultado.value = Number(primeiroNumero.value) - Number(segundoNumero.value);
             break;
         case "*":
-            resultado.value = Number(primeiroValor.value) * Number(segundoValor.value);
+            resultado.value = Number(primeiroNumero.value) * Number(segundoNumero.value);
             break;
         case "/":
-            resultado.value = Number(primeiroValor.value) / Number(segundoValor.value);
+            resultado.value = Number(primeiroNumero.value) / Number(segundoNumero.value);
             break;
     }
 }
